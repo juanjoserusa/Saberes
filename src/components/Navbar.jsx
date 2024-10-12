@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css'; // Archivo CSS personalizado
+import logo  from '../assets/img/saberes_horizontal.png'
 
 const Navbar = () => {
   return (
@@ -11,12 +12,13 @@ const Navbar = () => {
           {/* Logo pequeño siempre visible en el lateral */}
           <a className="navbar-brand" href="#">
             <img
-              src="../assets/img/saberes_horizontal.png"
+              src={logo}
               alt="Logo pequeño"
               className="d-inline-block align-text-top"
               width="350"
             />
           </a>
+          <img  src=''/>
 
           {/* Botón para menú colapsable en dispositivos móviles */}
           <button
