@@ -55,7 +55,7 @@ body, html {
 
 /* Efecto Parallax para las imágenes de fondo */
 .parallax-section-1::before {
-  background-image: url('./src/assets/img/20241002_165602.jpg'); /* Cambia por la ruta real de la imagen */
+  background-image: url('./assets/img/20241002_165602.jpg'); /* Cambia por la ruta real de la imagen */
 }
 
 .parallax-section-2::before {

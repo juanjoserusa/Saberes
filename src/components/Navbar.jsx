@@ -11,7 +11,7 @@ const Navbar = () => {
           {/* Logo pequeño siempre visible en el lateral */}
           <a className="navbar-brand" href="#">
             <img
-              src=".\src\assets\img\saberes_horizontal.png"
+              src="../assets/img/saberes_horizontal.png"
               alt="Logo pequeño"
               className="d-inline-block align-text-top"
               width="350"
