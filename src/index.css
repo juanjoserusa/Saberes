@@ -59,7 +59,7 @@ body, html {
 }
 
 .parallax-section-2::before {
-  background-image: url('./src/assets/img/20241009_164338.jpg'); /* Cambia por la ruta real de la imagen */
+  background-image: url('./assets/img/20241009_164338.jpg'); /* Cambia por la ruta real de la imagen */
 }
 
 /* Divider - franja entre las secciones */
