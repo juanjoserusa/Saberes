@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+/* Estilo para el navbar siempre pequeño y fijo en la parte superior */
+.navbar {
+    background-color: #ffffff !important;
+    z-index: 1030;
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Justificación entre el logo a la izquierda y los enlaces a la derecha */
+  .container-fluid {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  .navbar-nav .nav-link {
+    color: #2500FF !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff !important;
+  }
+  
+  .navbar-nav .btn {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-nav .btn:hover {
+    background-color: #0056b3 !important;
+  }
+  
+  /* Ajustes en dispositivos móviles y tablets */
+  @media (max-width: 992px) {
+    .navbar-brand img {
+      width: 200px; /* Tamaño más pequeño para el logo en dispositivos móviles */
+    }
+  
+    .navbar-collapse {
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      justify-content: center;
+    }
+  }
+  
