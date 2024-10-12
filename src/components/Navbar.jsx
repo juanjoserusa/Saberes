@@ -51,7 +51,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link btn btn-primary text-white px-4 py-2 rounded-pill"
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/610854449"
                 >
                   Llamar/WhatsApp
                 </a>
