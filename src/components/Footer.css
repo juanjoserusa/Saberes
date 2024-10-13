@@ -1,0 +1,83 @@
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .footer h5 {
+    color: #343a40;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .footer-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #0056b3;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-start; /* Los íconos de redes sociales estarán alineados a la izquierda */
+    gap: 15px; /* Espacio entre los íconos */
+  }
+  
+  .social-icons a {
+    color: #007bff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #0056b3;
+  }
+  
+  .text-center {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  /* Alinear las columnas de manera centrada */
+  .footer .row {
+    display: flex;
+    justify-content: space-around; /* Asegura que las columnas tengan el mismo espacio */
+    align-items: flex-start; /* Alinear las columnas en la parte superior */
+    margin: 0 auto; /* Centramos las columnas */
+    max-width: 1140px; /* Establecemos un ancho máximo */
+  }
+
+  .copyright-footer{
+    color: #007bff;
+  }
+  
+  /* Ajustes para pantallas pequeñas (menores de 768px) */
+  @media (max-width: 767px) {
+    .footer .row {
+      flex-direction: column; /* Las columnas se apilan en una fila en pantallas pequeñas */
+      text-align: center;
+    }
+  
+    /* Ajustar la disposición de las columnas en pantallas pequeñas */
+    .footer .col-md-4:nth-child(1),
+    .footer .col-md-4:nth-child(2) {
+      flex: 0 0 50%; /* Ambas columnas ocupan el 50% del ancho */
+      margin-bottom: 20px;
+      text-align: center; /* Alineamos el contenido al centro */
+    }
+  
+    /* Las redes sociales ocupan toda la fila */
+    .footer .col-md-4:nth-child(3) {
+      flex: 0 0 100%; /* Ocupa el 100% del ancho */
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .social-icons {
+      justify-content: center; /* Centrar los íconos en móviles */
+    }
+  }
+  

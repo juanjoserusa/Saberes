@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top w-100">
         <div className="container-fluid d-flex justify-content-between align-items-center">
           {/* Logo pequeño siempre visible en el lateral */}
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img
               src={logo}
               alt="Logo pequeño"
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link text-uppercase" href="#quienes-somos">Quiénes Somos</a>
+                <a className="nav-link text-uppercase" href="/sobremi">Quiénes Somos</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-uppercase" href="#donde-estamos">Dónde Estamos</a>

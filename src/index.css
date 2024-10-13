@@ -34,11 +34,13 @@ body, html {
 
 /* Contenido sobre las imágenes */
 .content {
+  color: #2400FF;
   z-index: 1;
-  max-width: 800px;
+  margin-top: 5%;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente para el texto */
   border-radius: 10px;
+  min-width: 50%;
 }
 
 /* Títulos y párrafos */
@@ -67,13 +69,57 @@ body, html {
   height: 200px;
   background-color: white; /* Puedes cambiar el color aquí más adelante */
   width: 100%;
-
-  font-size: 200px;
-  
 }
 
-
-.divider-text{
+.divider-text {
   color: #0056b3;
-  font-size: 80px;
+  font-size: 40px;
+}
+
+/* Estilos para las tarjetas */
+.cards-container {
+  display: flex;
+  justify-content: flex-start; /* Alinea las tarjetas al inicio */
+  gap: 20px; /* Espacio entre las tarjetas */
+  margin-top: 20px;
+  padding-left: 15px; /* Añadir padding para que la primera tarjeta no quede cortada */
+}
+
+.card {
+  background-color: rgba(255, 247, 146, 0.8);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  min-height: 320px;
+  max-width: 320px;
+  flex: 0 0 auto; /* Evita que las tarjetas se redimensionen en pantallas pequeñas */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 992px) {
+  .cards-container {
+    overflow-x: auto; /* Hacer scroll horizontal en pantallas pequeñas */
+    display: flex;
+    flex-wrap: nowrap; /* Las tarjetas no deben bajar, sino deslizarse */
+    -webkit-overflow-scrolling: touch; /* Suavizar el scroll en móviles */
+    padding-left: 10px; /* Espacio adicional para la primera tarjeta */
+  }
+
+  .card {
+    max-width: 95%; /* Las tarjetas ocuparán el 85% del ancho en móviles */
+    margin-right: 10px; /* Margen para que se vea parte de la siguiente tarjeta */
+  }
+
+  .content {
+    margin-top: 20%;
+    max-width: 350px;
+  }
+  .divider-text {
+    font-size: 35px;
+    text-align: center;
+  }
 }

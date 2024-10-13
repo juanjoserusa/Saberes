@@ -1,0 +1,76 @@
+/* Estilos generales para el componente SobreMi */
+.sobre-mi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f4f4f9; /* Color de fondo suave */
+    margin-top: 130px; /* Ajusta esto al tamaño de tu navbar */
+  }
+  
+  .sobre-mi-content {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se ajusten en pantallas pequeñas */
+    max-width: 1200px; /* Limitar el ancho en pantallas grandes */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    overflow: hidden;
+  }
+  
+  /* Imagen */
+  .sobre-mi-image {
+    flex: 1;
+    min-width: 300px; /* Tamaño mínimo de la imagen */
+  }
+  
+  .sobre-mi-image img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* Texto de la descripción */
+  .sobre-mi-text {
+    flex: 2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+  
+  .sobre-mi-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .sobre-mi-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Ajustes para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .sobre-mi-content {
+      flex-direction: column; /* Colocar la imagen y el texto en columnas */
+    }
+  
+    .sobre-mi-image img {
+      border-radius: 10px 10px 0 0; /* Ajuste del borde en móvil */
+    }
+  
+    .sobre-mi-text {
+      padding: 20px;
+    }
+  
+    .sobre-mi-text h2 {
+      font-size: 2rem;
+    }
+  
+    .sobre-mi-text p {
+      font-size: 1rem;
+    }
+  }
+  
