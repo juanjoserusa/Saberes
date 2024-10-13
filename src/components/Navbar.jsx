@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link text-uppercase" href="/sobremi">Quiénes Somos</a>
+                <a className="nav-link text-uppercase" href="/about">Quiénes Somos</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-uppercase" href="#donde-estamos">Dónde Estamos</a>

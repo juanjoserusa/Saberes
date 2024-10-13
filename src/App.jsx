@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sobremi" element={<SobreMi />} />
+        <Route path="/about" element={<SobreMi />} />
       </Routes>
       <Footer />
     </div>
