@@ -32,7 +32,7 @@ const SobreMi = () => {
           </p>
           <p>
             Las demás las van poniendo ellos con su forma de ser, y por ello la enseñanza aquí
-            es individualizada: cada uno aprende de una manera diferente, y nos adaptamos a ella.
+            es individualizada: cada uno aprende de una manera diferente, y nos adaptamos a ella
           </p>
         </div>
       </div>
