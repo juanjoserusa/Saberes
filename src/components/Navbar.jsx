@@ -40,10 +40,10 @@ const Navbar = () => {
                 <a className="nav-link text-uppercase" href="/about">Quiénes Somos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase" href="#donde-estamos">Dónde Estamos</a>
+                <a className="nav-link text-uppercase" href="/donde-estamos">Dónde Estamos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase" href="#clases-talleres">Clases y Talleres</a>
+                <a className="nav-link text-uppercase" href="/cursos">Cursos y tarifas</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-uppercase" href="#contacto-email">Contacto Email</a>

@@ -1,0 +1,9 @@
+.donde-estamos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f4f4f9; /* Color de fondo suave */
+    margin-top: 200px; /* Ajusta esto al tamaño de tu navbar */
+
+  }

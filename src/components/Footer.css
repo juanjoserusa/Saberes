@@ -1,8 +1,10 @@
 /* Footer */
 .footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
-  }
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box; /* Asegura que el padding no genere overflow */
+}
   
   .footer h5 {
     color: #343a40;

@@ -3,7 +3,7 @@ import './SobreMi.css'; // Archivo CSS para darle estilo al componente
 
 const SobreMi = () => {
   return (
-    <section className="sobre-mi-container">
+    <section className="sobre-mi-container container">
       <div className="sobre-mi-content">
         {/* Imagen */}
         <div className="sobre-mi-image">

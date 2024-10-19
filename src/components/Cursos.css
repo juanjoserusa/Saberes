@@ -1,0 +1,121 @@
+/* Contenedor general de la sección de cursos */
+.cursos-container {
+  background-color: #f0f4f8; /* Fondo claro */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 200px; /* Ajuste para evitar que el contenido quede oculto debajo del navbar */
+}
+
+/* Estilos para las tarjetas de promociones */
+.promo-card {
+  background-color: #ffffff; /* Fondo blanco limpio */
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  padding: 20px;
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: 300px; /* Tamaño máximo para las tarjetas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para un diseño más moderno */
+}
+
+/* Para centrar y distribuir las tarjetas de promociones */
+.promociones-wrapper {
+  display: flex;
+  justify-content: center; /* Centramos las tarjetas */
+  align-items: flex-start;
+  flex-wrap: wrap; /* Permite que las tarjetas se ajusten en pantallas pequeñas */
+}
+
+/* Columnas personalizadas para las promociones */
+.promo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Efecto hover para las tarjetas */
+.promo-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilos para las tablas de tarifas */
+.table-tarifas {
+  font-size: 1rem;
+  margin-top: 20px; /* Espacio entre la tabla y las promociones */
+  width: 100%; /* Asegura que la tabla ocupa el ancho completo */
+}
+
+/* Solución para el problema del scroll horizontal en pantallas pequeñas */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Para un mejor scroll en dispositivos táctiles */
+}
+
+/* Estilos para los bloques de horarios */
+.horarios-bloques {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre los bloques de horarios */
+  align-items: flex-start;
+  flex-wrap: wrap; /* Se ajusta en pantallas pequeñas */
+}
+
+.bloque-horario {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.bloque-horario h4 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.bloque-horario p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Estilos generales para el horario */
+.general-horario {
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+/* Estilos de los títulos */
+.titulo-cursos {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .promo-card {
+      margin-bottom: 20px;
+  }
+
+  .table-tarifas {
+    font-size: 0.8rem;
+  }
+
+  .bloque-horario {
+    width: 100%; /* Se ajusta a toda la pantalla en móviles */
+    max-width: none; /* Sin límite de tamaño en pantallas pequeñas */
+  }
+
+  .horarios-bloques {
+    flex-direction: column; /* Los bloques de horarios se apilan en pantallas pequeñas */
+    align-items: center;
+  }
+
+  .general-horario {
+    font-size: 1rem;
+  }
+}
