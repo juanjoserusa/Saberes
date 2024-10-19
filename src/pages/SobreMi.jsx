@@ -9,7 +9,7 @@ const SobreMi = () => {
           {/* Imagen */}
           <div className="col-md-6 sobre-mi-image">
             <img
-              src="src\assets\img\fi.jpg" // Cambia esta ruta por la de tu imagen real
+              src="./src/assets/img/fi.jpg" // Cambia esta ruta por la de tu imagen real
               alt="Foto de Fátima"
               className="img-responsive"
             />
