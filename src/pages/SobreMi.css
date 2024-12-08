@@ -1,0 +1,74 @@
+/* Contenedor General */
+.sobre-mi-container {
+  background-color: #f0f4f8; /* Fondo claro */
+  padding: 60px 0;
+  margin-top: 150px;
+}
+
+/* Contenedor del contenido */
+.sobre-mi-content {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Imagen */
+.sobre-mi-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-mi-image img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* Texto de la descripción */
+.sobre-mi-text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobre-mi-text h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2400FF;
+  margin-bottom: 20px;
+}
+
+.sobre-mi-text p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .sobre-mi-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .sobre-mi-text {
+    padding: 20px;
+  }
+
+  .sobre-mi-image img {
+    border-radius: 20px;
+  }
+
+  .sobre-mi-text h2 {
+    font-size: 2rem;
+  }
+
+  .sobre-mi-text p {
+    font-size: 1rem;
+  }
+}

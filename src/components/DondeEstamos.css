@@ -1,0 +1,70 @@
+/* Contenedor General */
+.donde-estamos-container {
+  background-color: #f0f4f8; /* Fondo claro */
+  padding: 60px 0;
+  margin-top: 150px;
+}
+
+/* Contenedor del contenido */
+.donde-estamos-content {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Texto de la descripción */
+.text-content {
+  padding: 20px;
+}
+
+.text-content h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2400FF; /* Usamos el color principal de tu marca */
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Mapa */
+.map-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-content iframe {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .donde-estamos-content {
+    flex-direction: column;
+  }
+
+  .text-content {
+    padding: 20px;
+  }
+
+  .text-content h2 {
+    font-size: 2rem;
+  }
+
+  .text-content p {
+    font-size: 1rem;
+  }
+
+  .map-content iframe {
+    border-radius: 15px;
+  }
+}

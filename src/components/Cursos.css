@@ -1,0 +1,162 @@
+/* Contenedor General */
+.cursos-container {
+  background-color: #f0f4f8; /* Fondo claro */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 150px;
+}
+
+/* Estilos Generales para los Títulos */
+.titulo-cursos {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2400FF;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Sección de Horarios */
+.horarios-section {
+  background: linear-gradient(135deg, #E0E7FF, #F8F9FF); /* Fondo degradado suave */
+  padding: 60px 0;
+  border-radius: 20px;
+}
+
+.horarios-bloques {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bloque-horario {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  width: 450px;
+  max-width: 450px;
+  min-height: 100px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.bloque-horario:hover {
+  transform: translateY(-5px); /* Efecto de hover */
+}
+
+.horario-content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.horario-content h4 {
+  font-size: 1.8rem;
+  color: #2400FF;
+  margin-bottom: 10px;
+}
+
+.horario-content p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.general-horario-container {
+  background-color: #A866FF;
+  padding: 15px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.general-horario {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+
+
+/* Sección de Tarifas */
+.tarifas-section {
+  background: #F4F5FA;
+  padding: 60px 0;
+}
+
+.table-tarifas {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+/* Sección de Promociones */
+.promociones-section {
+  background-color: #F8F9FF; /* Fondo suave */
+  padding: 60px 0;
+}
+
+.promociones-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.promo-item {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  flex: 1 1 30%;
+  transition: transform 0.3s ease;
+  max-width: 350px;
+  text-align: center;
+}
+
+.promo-item:hover {
+  transform: translateY(-5px); /* Efecto hover */
+}
+
+.promo-item h5 {
+  font-size: 1.8rem;
+  color: #2400FF;
+  margin-bottom: 15px;
+}
+
+.promo-item p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.promo-item ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.promo-item ul li {
+  margin: 10px 0;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .promo-item, .bloque-horario {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .titulo-cursos {
+    font-size: 2rem;
+  }
+
+  .horario-content h4, .promo-item h5 {
+    font-size: 1.5rem;
+  }
+
+  .horario-content p, .promo-item p, .promo-item ul {
+    font-size: 1rem;
+  }
+}
