@@ -7,30 +7,14 @@ const Cursos = () => {
         <div className="cursos-container">
             {/* Sección de Horarios */}
             <section className="horarios-section">
-                <div className="container">
+                <div className="container w-100">
                     <h2 className="text-center titulo-cursos">Nuestro Horario</h2>
-                    <p>Ofrecemos la posibilidad de elegir el horario que mejor se
-                        adapte a sus necesidades, facilitando así la conciliación
-                        familiar; entre las 16.00 y las 21.00</p>
-                    <div className="horarios-bloques">
-                        <div className="bloque-horario">
-                            <div className="horario-content">
-                                <h4>Primaria</h4>
-                                <p>De 16:00 a 17:00 y de 17:00 a 18:00</p>
-                            </div>
-                        </div>
-                        <div className="bloque-horario">
-                            <div className="horario-content">
-                                <h4>Secundaria y Bachillerato</h4>
-                                <p>De 18:00 a 19:30 y de 19:30 a 21:00</p>
-                            </div>
-                        </div>
-                        <p>(Para secundaria y bachillerato, si prefieres venir 3 horas en 3 días: de 18:00 a 19:00, de
-                            19:00 a 20:00 y de 20:00 a 21:00)</p>
+                    <div className="w-100 d-flex justify-content-center">
+                        <p className="w-50">Ofrecemos la posibilidad de elegir el horario que mejor se
+                            adapte a sus necesidades, facilitando así la conciliación
+                            familiar; entre las 16.00 y las 21.00</p>
                     </div>
-                    <div className="text-center mt-4 general-horario-container">
-                        <p className="general-horario">📅 <strong>De lunes a viernes:</strong> 16:00 a 21:00</p>
-                    </div>
+
                 </div>
             </section>
 
