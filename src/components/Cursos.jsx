@@ -51,21 +51,21 @@ const Cursos = () => {
                             <tbody>
                             <tr>
                                 <th>Primaria</th>
-                                <td>50 €</td>
-                                <td>60 €</td>
-                                <td>50 €</td>
+                                <td>45 €</td>
+                                <td>55 €</td>
+                                <td>65 €</td>
                             </tr>
                             <tr>
                                 <th>Secundaria</th>
-                                <td>60 €</td>
-                                <td>70 €</td>
-                                <td>60 €</td>
-                            </tr>
-                            <tr>
-                                <th>1º Bachillerato</th>
+                                <td>55 €</td>
                                 <td>65 €</td>
                                 <td>75 €</td>
+                            </tr>
+                            <tr>
+                                <th>Bachillerato</th>
+                                <td>--</td>
                                 <td>65 €</td>
+                                <td>75 €</td>
                             </tr>
                             </tbody>
                         </table>

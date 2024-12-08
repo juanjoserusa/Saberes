@@ -22,8 +22,8 @@ const SobreMi = () => {
                         </p>
                         <p>
                             Mi trabajo es mi pasión, con más de 10 años de experiencia, decidí dar un
-                            salto y abrir un espacio nuevo donde poder ayudar a cada alumno/a a
-                            <strong>mejorar en sus resultados académicos</strong>: aprender a pensar, aprender a
+                            salto y abrir un espacio nuevo donde poder ayudar a cada alumno/a a <strong>mejorar en sus
+                            resultados académicos</strong>: aprender a pensar, aprender a
                             organizarse, aprender a estudiar; pero también un lugar donde pueden
                             evolucionar y crecer como persona: ser ellos mismos, crear lazos de amistad
                             con otros alumnos y <strong>desarrollar su confianza y su autoestima</strong>.
